@@ -1,0 +1,26 @@
+{
+  "name": "chainbeacon",
+  "version": "1.0.0-beta",
+  "description": "Diverse verification of bitcoin blocks.",
+  "main": "beacon.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braydonf/chainbeacon.git"
+  },
+  "keywords": [
+    "Bitcoin"
+  ],
+  "author": "Braydon Fuller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/braydonf/chainbeacon/issues"
+  },
+  "homepage": "https://github.com/braydonf/chainbeacon#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.8"
+  }
+}

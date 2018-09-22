@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "name": "bcoin-v1.0.2",
+      "host": "localhost",
+      "port": 8333,
+      "user": "user",
+      "pass": "pass",
+      "https": false
+    },
+    {
+      "name": "bitcoincore-v0.16.2",
+      "host": "localhost",
+      "port": 8333,
+      "user": "user",
+      "pass": "pass",
+      "https": false
+    },
+    {
+      "name": "bitcoincore-v0.16.3",
+      "host": "localhost",
+      "port": 8333,
+      "user": "user",
+      "pass": "pass",
+      "https": false
+    },
+    {
+      "name": "btcd-v0.12.0-beta",
+      "host": "localhost",
+      "port": 8333,
+      "user": "user",
+      "pass": "pass",
+      "https": false
+    }
+  ],
+  "emailer": {
+    "host": "localhost",
+    "port": 10000,
+    "secure": true,
+    "auth": {
+      "user": "user",
+      "pass": "pass"
+    },
+    "from": "user@email.com"
+  },
+  "subscribers": {
+    "user@email.com"
+  },
+  "interval": 10000
+}
