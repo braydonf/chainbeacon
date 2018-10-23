@@ -1,8 +1,9 @@
 'use strict';
 
 const path = require('path');
-const {config} = require('./config');
-const {Beacon} = require('./beacon');
+
+const {config} = require('./lib/config');
+const {Beacon} = require('./lib/beacon');
 const name = require('./package.json').name;
 
 function main() {
